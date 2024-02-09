@@ -1,0 +1,53 @@
+.buttons {
+  &__main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+
+    &-item {
+      background: none;
+      height: 72px;
+      border: none;
+      font-size: 32px;
+      transition: 150ms;
+
+      &:hover {
+        background: red;
+      }
+    }
+  }
+
+  &__operators {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+
+    &-item {
+      background: none;
+      height: 72px;
+      border: none;
+      font-size: 32px;
+      transition: 150ms;
+
+      &:hover {
+        background: red;
+      }
+    }
+  }
+
+  &__additional {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    &-item {
+      background: none;
+      height: 72px;
+      border: none;
+      font-size: 32px;
+      transition: 150ms;
+
+      &:hover {
+        background: red;
+      }
+    }
+  }
+}
