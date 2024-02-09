@@ -6,7 +6,13 @@ import { Observable, of } from 'rxjs';
 })
 export class MainService {
 
-    result: Observable<number> = of(4);
-    
+    result: Observable<number> = of(0);
+    value: Observable<number> = of((50 + 5))
+
+    computeValue() {
+        this.value.subscribe((observer) => {
+            this.result = of(observer)
+        })
+    }
     
 }

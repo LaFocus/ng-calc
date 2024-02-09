@@ -18,5 +18,6 @@ export class ResultComponent {
     this.mainServie.result.subscribe((observer: any) => {
       this.result = observer
     })
+    this.mainServie.computeValue()
   }
 }
