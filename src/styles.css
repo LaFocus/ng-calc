@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
 /* You can add global styles to this file, and also import other style files */
 * {
     color: white;
@@ -7,10 +8,4 @@
     text-decoration: none;
     list-style: none;
     font-family: 'Work Sans';
-}
-@font-face {
-    font-family: 'Work Sans';
-    src: url('./assets/fonts/WorkSans-Regular.ttf');
-    font-style: normal;
-    font-weight: normal;
 }
