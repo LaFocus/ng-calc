@@ -1,11 +1,10 @@
 .main {
-    background: #17171C;
-    width: 31vw;
-    min-width: 375px;
-    min-height: 1024px;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    
+  background: #17171c;
+  width: 31vw;
+  min-width: 375px;
+  min-height: 1024px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }

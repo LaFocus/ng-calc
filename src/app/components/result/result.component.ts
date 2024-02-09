@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { MainService } from "../../services/main.service";
+import { Observable } from "rxjs";
 
 @Component({
   selector: 'app-result',
@@ -8,5 +10,13 @@ import { Component } from '@angular/core';
   styleUrl: './result.component.scss'
 })
 export class ResultComponent {
-  
+  result: number = 0
+
+  mainServie = inject(MainService)
+
+  ngOnInit() {
+    this.mainServie.result.subscribe((observer: any) => {
+      this.result = observer
+    })
+  }
 }
