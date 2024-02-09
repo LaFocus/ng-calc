@@ -3,5 +3,8 @@
     width: 768px;
     height: 1024px;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     
 }

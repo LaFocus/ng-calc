@@ -1,0 +1,11 @@
+.result {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 16px;
+
+  &-inner {
+    font-size: 96px;
+    width: max-content;
+  }
+}

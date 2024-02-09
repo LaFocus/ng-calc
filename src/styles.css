@@ -6,4 +6,11 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    font-family: 'Work Sans';
+}
+@font-face {
+    font-family: 'Work Sans';
+    src: url('./assets/fonts/WorkSans-Regular.ttf');
+    font-style: normal;
+    font-weight: normal;
 }
